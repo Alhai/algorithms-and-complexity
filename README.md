@@ -23,7 +23,8 @@ Le programme implémente les algorithmes de tri suivants :
   gcc -o tri_algorithmes exercices.c
   ```
 
-  - **Lancer l'executable :**
-    ```bash
+- **Lancer l'executable :**
+
+  ```bash
     ./tri_algorithmes
-    ```
+  ```

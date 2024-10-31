@@ -112,32 +112,32 @@ void triRapide(int arr[], int bas, int haut) {
 }
 
 int main() {
-    int arr[] = {64, 25, 12, 22, 11};
+    int arr[] = {66, 33, 11, 22, 44};
     int taille = sizeof(arr) / sizeof(arr[0]);
 
     printf("Tableau original :\n");
     afficherTableau(arr, taille);
 
     // Tri à bulles
-    int arr1[] = {64, 25, 12, 22, 11};
+    int arr1[] = {66, 33, 11, 22, 44};
     triABulles(arr1, taille);
     printf("\nTableau trié avec tri à bulles :\n");
     afficherTableau(arr1, taille);
 
     // Tri par sélection
-    int arr2[] = {64, 25, 12, 22, 11};
+    int arr2[] = {66, 33, 11, 22, 44};
     triParSelection(arr2, taille);
     printf("\nTableau trié avec tri par sélection :\n");
     afficherTableau(arr2, taille);
 
     // Tri à fusion
-    int arr3[] = {64, 25, 12, 22, 11};
+    int arr3[] = {66, 33, 11, 22, 44};
     triAFusion(arr3, 0, taille - 1);
     printf("\nTableau trié avec tri à fusion :\n");
     afficherTableau(arr3, taille);
 
     // Tri rapide
-    int arr4[] = {64, 25, 12, 22, 11};
+    int arr4[] = {66, 33, 11, 22, 44};
     triRapide(arr4, 0, taille - 1);
     printf("\nTableau trié avec tri rapide :\n");
     afficherTableau(arr4, taille);
